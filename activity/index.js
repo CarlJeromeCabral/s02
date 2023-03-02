@@ -1,16 +1,25 @@
-let person = prompt("Please enter your name", "Harry Potter");
+function myFunction() {
+  let person = prompt("Please enter your name");
+  let age = prompt("Please enter your age");
+  let address = prompt("Please enter your address");
 
-if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today?";
+  alert("Thank you for your information");
+
+  if (person,address,age != null) {
+
+    console.log("Hello " + person + " " + age + " years old" + " living in " + address);
+
+  function printBands(top5Bands){
+	console.log(`Top 5 Bands: \n${top5Bands}`);
+	}
+	printBands("The Score,\nKDA,\nMarshmello,\nBruno Mars,\nAlan Walker");
+
+	function printMovies(top5Movies){
+	console.log(`Top 5 Movies: \n${top5Movies}`);
+	}
+	printMovies("Avenger's Infinity War: 85%,\nTransformers: 58%,\nPirates of the Caribbean: The Curse of the Black Pearl: 80%,\nSpider-man: No Way Home: 93%,\nRise of the Guardians:74%");
+  }
 }
 
-function printBands(top5Bands){
-	console.log(`Top 5 Bands: ${top5Bands}`);
-}
-printBands("The Score, KDA, Marshmello, Bruno Mars, Alan Walker");
 
-function printMovies(top5Movies){
-	console.log(`Top 5 Movies: ${top5Movies}`);
-}
-printMovies("Avenger's Infinity War: 85%, Transformers: 58%, Pirates of the Caribbean: The Curse of the Black Pearl: 80%, Spider-man: No Way Home: 93%, Rise of the Guardians:74%");
+
