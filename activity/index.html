@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>Main Activity</title>
+<h1>Applications of Development and Emerging Technologies (LAB)</h1>
+
+
+<h2>Main Activity - Carl Jerome Cabral</h2>
+
+<button onclick="myFunction()">Log In</button>
+
+<p id="account"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter your name");
+  let age = prompt("Please enter your age");
+  let address = prompt("Please enter your address");
+  if (person,address,age != null) {
+    document.getElementById("account").innerHTML =
+    "Hello " + person + " " + age + " years old" + " living in " + address;
+  alert("Thank you");
+  }
+}
+</script>
+
+</body>
+</html>
